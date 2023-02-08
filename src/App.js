@@ -2,13 +2,18 @@ import React from 'react'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
-import Login from './components/login.js'
-import SignUp from './components/signup.js'
-function App() {
+import Login from './screens/login.js'
+import SignUp from './screens/signup.js'
+
+
+
+const App = () => {
+
+
   return (
     <Router>
       <div className="App">
-        <nav className="navbar navbar-expand-lg navbar-light fixed-top">
+        {/* <nav className="navbar navbar-expand-lg navbar-light fixed-top">
           <div className="container">
             <Link className="navbar-brand" to={'/sign-in'}>
               positronX
@@ -28,7 +33,7 @@ function App() {
               </ul>
             </div>
           </div>
-        </nav>
+        </nav> */}
         <div className="auth-wrapper">
           <div className="auth-inner">
             <Routes>
@@ -42,4 +47,6 @@ function App() {
     </Router>
   )
 }
+
+
 export default App

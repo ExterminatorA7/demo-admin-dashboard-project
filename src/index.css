@@ -53,7 +53,7 @@ html,
   padding: 40px 55px 45px 55px;
   border-radius: 5px;
   transition: all .3s;
-}s
+}
 
 .auth-wrapper .form-control:focus {
   border-color: #167bff;
@@ -84,3 +84,9 @@ html,
 .forgot-password a {
   color: #167bff;
 }
+
+label {
+  margin-bottom: 5px;
+}
+
+
