@@ -15,7 +15,7 @@ const Login = () => {
                 />
             </div>
             <div className="mb-3">
-                <label>Password</label>
+                <label>Passwords</label>
                 <input
                     required
                     type="password"
